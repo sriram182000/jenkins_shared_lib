@@ -1,3 +1,3 @@
 def call() {
-    sh "mvn clean package -skipUnitTests"
+    sh "mvn clean package -DskipUnitTests"
 }
